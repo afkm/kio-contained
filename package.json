@@ -1,0 +1,29 @@
+{
+  "name": "kio-contained",
+  "version": "0.0.0",
+  "description": "A hapi.js wrapper for retreiving content from KIO Contain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/afkm/kio-contained.git"
+  },
+  "keywords": [
+    "kio",
+    "contain",
+    "hapijs"
+  ],
+  "author": "silend (http://github.com/afkm)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afkm/kio-contained/issues"
+  },
+  "homepage": "https://github.com/afkm/kio-contained",
+  "dependencies": {
+    "kio-crypt": "git://github.com/afkm/kio-crypt",
+    "hoek": "^2.1.0",
+    "request": "^2.34.0"
+  }
+}
